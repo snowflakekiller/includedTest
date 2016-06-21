@@ -19,6 +19,6 @@ class Blah
   include MyModule #included is fired here, base is the current self which is class Blah
 end
 
-Blah.hellofromclass # self is the class
+Blah.hellofromclass # self is the class, returns “Blah”
 
-Blah.new.hellofrominstance # self is the instance object 
+Blah.new.hellofrominstance # self is the instance object, returns #<Blah:address>
